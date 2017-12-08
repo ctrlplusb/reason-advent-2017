@@ -1,0 +1,17 @@
+{
+  "name": "reason-advent-2017",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "npm run build && jest"
+  },
+  "keywords": ["BuckleScript"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-jest": "^0.2.0",
+    "bs-platform": "^2.1.0"
+  }
+}
